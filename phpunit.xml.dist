@@ -10,7 +10,7 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name="Chuck Norris Test Suite">
+        <testsuite name="CAFCP Hydrogen Station Fuel Status Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

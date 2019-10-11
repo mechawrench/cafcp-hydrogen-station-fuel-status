@@ -1,7 +1,14 @@
 # Changelog
+All notable changes to this project will be documented in this file.
 
-All notable changes to `cafcp-hydrogen-station-fuel-status` will be documented in this file
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 1.0.0 - 201X-XX-XX
+## [Unreleased]
 
-- initial release
+## [1.0.0] - 2019-10-10
+### Added
+- Initial release
+
+[Unreleased]: https://github.com/mechawrench/cafcp-hydrogen-station-fuel-status/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/mechawrench/cafcp-hydrogen-station-fuel-status/releases/tag/v1.0.0
