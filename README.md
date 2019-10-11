@@ -1,6 +1,7 @@
 # CAFCP Hydrogen Station Fuel Status
 
-[![Actions Status](https://github.com/mechawrench/cafcp-hydrogen-station-fuel-status/workflows/PHPUnit/badge.svg)](https://github.com/mechawrench/cafcp-hydrogen-station-fuel-status/actions)
+[![Actions Status](https://github.com/mechawrench/cafcp-hydrogen-station-fuel-status/workflows/PHPUnit/badge.svg)](https://github.com/mechawrench/cafcp-hydrogen-station-fuel-status/actions) [![StyleCI Status](https://github.styleci.io/repos/214307467/shield)](https://github.styleci.io/repos/214307467)
+
 
 Retrieves the hydrogen station fuel availability status from CAFCP.  Lists both H70 and H35 status and quantity.  This package was written for integration with Laravel 6.
 
