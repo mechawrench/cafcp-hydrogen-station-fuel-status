@@ -1,6 +1,8 @@
+html
 build
 composer.lock
 docs
 vendor
 coverage
 .vscode
+
