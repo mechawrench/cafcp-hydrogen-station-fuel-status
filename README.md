@@ -21,6 +21,9 @@ $station = CafcpHydrogenStationFuelStatus::getStationStatus('Diamond Bar');
 $statusH70 = $station['statusH70'];
 ```
 
+## Find All Locations directly from CAFCP
+https://cafcp.org/stationmap
+
 ### Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
