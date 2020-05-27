@@ -1,6 +1,8 @@
 # CAFCP Hydrogen Station Fuel Status
 
-Retrieves the hydrogen station fuel availability status from CAFCP.  Lists both H70 and H35 status and quantity.  This package was written for integration with Laravel 6.
+![run-tests](https://github.com/mechawrench/cafcp-hydrogen-station-fuel-status/workflows/run-tests/badge.svg)
+
+Retrieves the hydrogen station fuel availability status from CAFCP.  Lists both H70 and H35 status and quantity.  This package works with Laravel 7.x.
 
 ## Installation
 
