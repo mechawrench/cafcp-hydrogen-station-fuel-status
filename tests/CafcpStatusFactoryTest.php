@@ -3,11 +3,11 @@
 namespace Mechawrench\CafcpHydrogenStationFuelStatus\Tests;
 
 use GuzzleHttp\Client;
+use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Response;
-use PHPUnit\Framework\TestCase;
-use GuzzleHttp\Handler\MockHandler;
 use Mechawrench\CafcpHydrogenStationFuelStatus\CafcpHydrogenStationFuelStatus;
+use PHPUnit\Framework\TestCase;
 
 class CafcpStatusFactoryTest extends TestCase
 {
@@ -26,10 +26,10 @@ class CafcpStatusFactoryTest extends TestCase
         $station_status = $stations->getStationStatus('Diamond Bar');
 
         $should_match = collect([
-            'station' => 'Diamond Bar',
-            'statusH70' => 'offline',
+            'station'     => 'Diamond Bar',
+            'statusH70'   => 'offline',
             'capacityH70' => '0 kg',
-            'statusH35' => 'offline',
+            'statusH35'   => 'offline',
             'capacityH35' => '0 kg',
         ]);
 

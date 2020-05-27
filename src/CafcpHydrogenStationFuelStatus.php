@@ -26,11 +26,11 @@ class CafcpHydrogenStationFuelStatus
             if ($station->node->title == $station_name) {
                 return collect(
                     [
-                        'station' => $station->node->title,
-                        'statusH70' => $station->node->status70,
-                        'capacityH70' =>  $station->node->capacity70,
-                        'statusH35' => $station->node->status35,
-                        'capacityH35' =>  $station->node->capacity35,
+                        'station'     => $station->node->title,
+                        'statusH70'   => $station->node->status70,
+                        'capacityH70' => $station->node->capacity70,
+                        'statusH35'   => $station->node->status35,
+                        'capacityH35' => $station->node->capacity35,
                     ]
                 );
             }
