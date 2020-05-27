@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.1] - 2020-05-27
+### Updated 
+- Removed duplicate import on CafcpStatusFactoryTest
+
 ## [2.0.0] - 2020-05-27
 ### Updated
 - Use PHP 7.4
@@ -18,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/mechawrench/cafcp-hydrogen-station-fuel-status/compare/v2.0.0...HEAD
+[Unreleased]: https://github.com/mechawrench/cafcp-hydrogen-station-fuel-status/compare/v2.0.1...HEAD
+[2.0.1]: https://github.com/mechawrench/cafcp-hydrogen-station-fuel-status/releases/tag/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/mechawrench/cafcp-hydrogen-station-fuel-status/releases/tag/v1.0.0...v2.0.0
 [1.0.0]: https://github.com/mechawrench/cafcp-hydrogen-station-fuel-status/releases/tag/v1.0.0
