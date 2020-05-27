@@ -3,9 +3,8 @@
 namespace Mechawrench\CafcpHydrogenStationFuelStatus\Tests;
 
 use Mechawrench\CafcpHydrogenStationFuelStatus\CafcpHydrogenStationFuelStatus;
-use PHPUnit\Framework\TestCase;
-use GuzzleHttp\Handler\MockHandler;
 use Mechawrench\CafcpHydrogenStationFuelStatus\CafcpHydrogenStationFuelStatus;
+use PHPUnit\Framework\TestCase;
 
 class CafcpStatusFactoryTest extends TestCase
 {
