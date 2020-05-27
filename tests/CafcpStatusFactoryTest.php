@@ -2,8 +2,8 @@
 
 namespace Mechawrench\CafcpHydrogenStationFuelStatus\Tests;
 
-use PHPUnit\Framework\TestCase;
 use Mechawrench\CafcpHydrogenStationFuelStatus\CafcpHydrogenStationFuelStatus;
+use PHPUnit\Framework\TestCase;
 
 class CafcpStatusFactoryTest extends TestCase
 {
