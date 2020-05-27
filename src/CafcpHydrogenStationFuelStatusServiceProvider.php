@@ -54,7 +54,7 @@ class CafcpHydrogenStationFuelStatusServiceProvider extends ServiceProvider
 
         // Register the main class to use with the facade
         $this->app->singleton('cafcp-hydrogen-station-fuel-status', function () {
-            return new CafcpHydrogenStationFuelStatus;
+            return new CafcpHydrogenStationFuelStatus();
         });
     }
 }
