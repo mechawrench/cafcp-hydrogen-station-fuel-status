@@ -43,7 +43,7 @@ class CafcpStatusFactoryTest extends TestCase
 
         $station_status = $stations->getStationStatus('Diamond Bar');
 
-        $this->assertArrayHasKey('station', $station_status);
+        $this->assertEquals($station_status['station'], 'Diamond Bar');
     }
 
     /** @test */
@@ -54,13 +54,12 @@ class CafcpStatusFactoryTest extends TestCase
         $station_status = $stations->getStationStatus('Fake Station here');
 
         $this->assertArrayHasKey('status', $station_status);
+        $this->assertEquals(["status" => "Station not found with that name."], $station_status);
     }
 
     /** @test */
     public function it_uses_facade_to_get_data()
     {
-        $stations = new CafcpHydrogenStationFuelStatus();
-
         $station_status = CafcpHydrogenStationFuelStatus::getStationStatus('Diamond Bar');
 
         $this->assertArrayHasKey('station', $station_status);
