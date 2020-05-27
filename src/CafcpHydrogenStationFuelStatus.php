@@ -2,18 +2,9 @@
 
 namespace Mechawrench\CafcpHydrogenStationFuelStatus;
 
-use GuzzleHttp\Client;
-
 class CafcpHydrogenStationFuelStatus
 {
     const API_ENDPOINT = 'https://m.cafcp.org/nocache/soss2-statusfile.json';
-
-    protected $client;
-
-    public function __construct(Client $client = null)
-    {
-        $this->client = $client ?: new Client();
-    }
 
     /** @test */
     public static function getStationStatus($station_name = null)
