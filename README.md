@@ -15,7 +15,7 @@ composer require mechawrench/cafcp-hydrogen-station-fuel-status
 ``` php
 $station = CafcpHydrogenStationFuelStatus::getStationStatus('Diamond Bar');
 
-$statusH70 = $station['statusH70'];
+$statusH70 = $station->statusH70;
 ```
 
 ### Changelog

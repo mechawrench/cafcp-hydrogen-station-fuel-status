@@ -2,11 +2,7 @@
 
 namespace Mechawrench\CafcpHydrogenStationFuelStatus\Tests;
 
-use GuzzleHttp\Client;
-use GuzzleHttp\HandlerStack;
-use GuzzleHttp\Psr7\Response;
 use PHPUnit\Framework\TestCase;
-use GuzzleHttp\Handler\MockHandler;
 use Mechawrench\CafcpHydrogenStationFuelStatus\CafcpHydrogenStationFuelStatus;
 
 class CafcpStatusFactoryTest extends TestCase
@@ -18,7 +14,7 @@ class CafcpStatusFactoryTest extends TestCase
 
         $station_status = $stations->getStationStatus('Diamond Bar');
 
-        $this->assertEquals($station_status['station'], 'Diamond Bar');
+        $this->assertEquals($station_status->station, 'Diamond Bar');
     }
 
     /** @test */
@@ -37,6 +33,6 @@ class CafcpStatusFactoryTest extends TestCase
     {
         $station_status = CafcpHydrogenStationFuelStatus::getStationStatus('Diamond Bar');
 
-        $this->assertArrayHasKey('station', $station_status);
+        $this->assertEquals('Diamond Bar', $station_status->station);
     }
 }
