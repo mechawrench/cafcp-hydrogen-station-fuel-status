@@ -31,7 +31,7 @@ class CafcpHydrogenStationFuelStatus
                         'capacityH70' => $station->node->capacity70,
                         'statusH35' => $station->node->status35,
                         'capacityH35' => $station->node->capacity35,
-                    ]
+                    ],
                 ]);
 
                 return $collection->first();
