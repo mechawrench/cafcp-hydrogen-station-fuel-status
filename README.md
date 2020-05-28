@@ -18,6 +18,12 @@ composer require mechawrench/cafcp-hydrogen-station-fuel-status
 ## Usage
 
 ``` php
+// All station actions
+$stations = CafcpHydrogenStationFuelStatus::getAllStations();
+
+$stations_offline = $stations->where('statusH70', 'offline')->all();
+
+// Single station actions
 // Get Station names from https://cafcp.org/stationmap
 $station = CafcpHydrogenStationFuelStatus::getStationStatus('Diamond Bar');
 

@@ -31,4 +31,28 @@ class CafcpHydrogenStationFuelStatus
 
         return ['status' => 'Station not found with that name.'];
     }
+
+    /** @test */
+    public static function getAllStations()
+    {
+        $station_list = file_get_contents(self::API_ENDPOINT);
+
+        $stations = json_decode($station_list);
+
+        $collection = collect();
+
+        foreach ($stations as $station) {
+            $collection->push(
+                (object) [
+                        'station' => $station->node->title,
+                        'statusH70' => $station->node->status70,
+                        'capacityH70' => $station->node->capacity70,
+                        'statusH35' => $station->node->status35,
+                        'capacityH35' => $station->node->capacity35,
+                    ]
+            );
+        }
+
+        return $collection;
+    }
 }
