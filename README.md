@@ -51,4 +51,4 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 - [All Contributors](../../contributors)
 
 ## License
-[MIT](https://github.com/mechawrench/cafcp-hydrogen-station-fuel-statuss/blob/master/LICENSE.md)
+[MIT](https://github.com/mechawrench/cafcp-hydrogen-station-fuel-status/blob/master/LICENSE.md)
