@@ -29,10 +29,18 @@ class CafcpStatusFactoryTest extends TestCase
     }
 
     /** @test */
-    public function it_uses_facade_to_get_data()
+    public function it_uses_facade_to_get_a_station_data()
     {
         $station_status = CafcpHydrogenStationFuelStatus::getStationStatus('Diamond Bar');
 
         $this->assertEquals('Diamond Bar', $station_status->station);
+    }
+
+    /** @test */
+    public function it_uses_facade_to_get_stations_data()
+    {
+        $stations = CafcpHydrogenStationFuelStatus::getAllStations();
+
+        $this->assertTrue($stations->count() > 20);
     }
 }
