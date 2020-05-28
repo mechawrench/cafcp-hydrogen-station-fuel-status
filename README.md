@@ -1,8 +1,8 @@
 # CAFCP Hydrogen Station Fuel Status
 
 ![run-tests](https://github.com/mechawrench/cafcp-hydrogen-station-fuel-status/workflows/run-tests/badge.svg)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/mechawrench/cafcp-hydrogen-station-fuel-status.svg?style=flat-square)](https://packagist.org/packages/spatie/unit-conversions)
-[![Total Downloads](https://img.shields.io/packagist/dt/mechawrench/cafcp-hydrogen-station-fuel-status.svg?style=flat-square)](https://packagist.org/packages/spatie/unit-conversions)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/mechawrench/cafcp-hydrogen-station-fuel-status.svg?style=flat-square)](https://packagist.org/packages/mechawrench/cafcp-hydrogen-station-fuel-status)
+[![Total Downloads](https://img.shields.io/packagist/dt/mechawrench/cafcp-hydrogen-station-fuel-status.svg?style=flat-square)](https://packagist.org/packages/mechawrench/cafcp-hydrogen-station-fuel-status)
 
 
 Retrieves the hydrogen station fuel availability status from CAFCP.  Lists both H70 and H35 status and quantity.  This package works with Laravel 7.x.
@@ -51,4 +51,4 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 - [All Contributors](../../contributors)
 
 ## License
-[MIT](https://github.com/mechawrench/cafcp-hydrogen-station-fuel-statuss/blob/master/LICENSE.md)
+[MIT](https://github.com/mechawrench/cafcp-hydrogen-station-fuel-status/blob/master/LICENSE.md)
