@@ -28,7 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial release
 
 [Unreleased]: https://github.com/mechawrench/cafcp-hydrogen-station-fuel-status/compare/v2.1.0...HEAD
-[2.1.0]: https://github.com/mechawrench/cafcp-hydrogen-station-fuel-status/releases/tag/v2.0.1...v2.1.0
-[2.0.1]: https://github.com/mechawrench/cafcp-hydrogen-station-fuel-status/releases/tag/v2.0.0...v2.0.1
-[2.0.0]: https://github.com/mechawrench/cafcp-hydrogen-station-fuel-status/releases/tag/v1.0.0...v2.0.0
-[1.0.0]: https://github.com/mechawrench/cafcp-hydrogen-station-fuel-status/releases/tag/v1.0.0
+[2.1.0]: https://github.com/mechawrench/cafcp-hydrogen-station-fuel-status/compare/v2.0.1...v2.1.0
+[2.0.1]: https://github.com/mechawrench/cafcp-hydrogen-station-fuel-status/compare/v2.0.0...v2.0.1
+[2.0.0]: https://github.com/mechawrench/cafcp-hydrogen-station-fuel-status/compare/1.0.0...v2.0.0
+[1.0.0]: https://github.com/mechawrench/cafcp-hydrogen-station-fuel-status/releases/tag/1.0.0
